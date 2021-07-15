@@ -1,6 +1,8 @@
 import nmap
-import nmap3
 import json
+import sys
+sys.path.append('/root/python3-nmap')
+import nmap3
 
 nmap = nmap3.Nmap()
 os_results = nmap.nmap_version_detection("10.129.179.163")
@@ -20,4 +22,3 @@ for i in range(len(os_results['10.129.179.163']['ports'])):
         print ('[*] Service : ' + variable2)
         print ('[*] Version : ' + variable3)
         print ('============================================================')
-
