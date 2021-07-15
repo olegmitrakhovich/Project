@@ -18,8 +18,8 @@ os_results = nmap.nmap_version_detection(host)
 print(os_results)
 
 #this pretty prints the json
-jsonoutput = json.dumps(os_results, indent=4)
-print(jsonoutput)
+#jsonoutput = json.dumps(os_results, indent=4)
+#print(jsonoutput)
 
 print('============================================================')
 

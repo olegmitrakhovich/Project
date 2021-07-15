@@ -1,8 +1,15 @@
 # Project
 Project
 
-     git clone https://github.com/wangoloj/python3-nmap.git
+NMAP setup:
+
+    git clone https://github.com/wangoloj/python3-nmap.git
 
     pip3 install -r requirements.txt
 
-    and moving "Nmapproject.py" into "python3-nmap" directory is what works
+Node.js setup:
+
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+
+    node nmap-node.js
