@@ -1,8 +1,11 @@
 var express = require("express");
 var app = express();
 
+const shell = require('shelljs')
+
 app.get("/url", (req, res, next) => {
- res.json(["Test","Test","Test","Test","Test"]);
+
+ res.json(["Running Script!"]);
 });
 
 app.listen(3001, () => {
