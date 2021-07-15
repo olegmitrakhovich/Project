@@ -13,5 +13,6 @@ Node.js setup:
     sudo apt-get install -y nodejs
 
     npm install -g express-generator
+    npm install express --save
 
     node nmap-node.js
