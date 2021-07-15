@@ -14,6 +14,5 @@ Node.js setup:
 
     npm install -g express-generator
     npm install express --save
-    npm install shelljs
 
     node nmap-node.js

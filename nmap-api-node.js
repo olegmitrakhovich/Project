@@ -1,7 +1,6 @@
 var express = require("express");
 var app = express();
 
-const shell = require('shelljs')
 
 app.get("/url", (req, res, next) => {
 
