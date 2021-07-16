@@ -15,7 +15,6 @@ Node.js setup:
     npm install -g express-generator
     npm install express --save
 
-    npm install sync-exec
     npm install execSync
 
     node nmap-node.js
