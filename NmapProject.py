@@ -7,6 +7,8 @@ import sys
 sys.path.append('/root/python3-nmap')
 import nmap3
 
+print('Test')
+
 parser = argparse.ArgumentParser()
 parser.add_argument("Host", help="enter a domain or IP address")
 args = parser.parse_args()
